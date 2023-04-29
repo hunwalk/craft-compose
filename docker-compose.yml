@@ -24,7 +24,7 @@ services:
 
   db:
     container_name: ${CRAFT_APP_ID}_db
-    image: mariadb:10.5
+    image: mariadb:latest
     environment:
       MYSQL_ROOT_PASSWORD: ${CRAFT_DB_PASSWORD}
       MYSQL_DATABASE: ${CRAFT_DB_DATABASE}
